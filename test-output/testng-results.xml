@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-01-18T11:47:52 IST" name="JenkinsDemo by packages" finished-at="2023-01-18T11:48:23 IST" duration-ms="31769">
+    <groups>
+      <group name="Smoke">
+        <method signature="Day1Test.createAdmin()[pri:0, instance:practice_package.Day1Test@6cd28fa7]" name="createAdmin" class="practice_package.Day1Test"/>
+        <method signature="Day2Test.createStudent()[pri:0, instance:practice_package.Day2Test@614ca7df]" name="createStudent" class="practice_package.Day2Test"/>
+        <method signature="Day3Test.createExpensses()[pri:0, instance:practice_package.Day3Test@1e04fa0a]" name="createExpensses" class="practice_package.Day3Test"/>
+        <method signature="Day4Test.createActivites()[pri:0, instance:practice_package.Day4Test@1af2d44a]" name="createActivites" class="practice_package.Day4Test"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2023-01-18T11:47:52 IST" name="practice_package" finished-at="2023-01-18T11:48:23 IST" duration-ms="31769">
+      <class name="practice_package.Day3Test">
+        <test-method signature="deleteExpensses()[pri:0, instance:practice_package.Day3Test@1e04fa0a]" started-at="2023-01-18T11:48:23 IST" name="deleteExpensses" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteExpensses -->
+        <test-method signature="createExpensses()[pri:0, instance:practice_package.Day3Test@1e04fa0a]" started-at="2023-01-18T11:48:23 IST" name="createExpensses" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createExpensses -->
+        <test-method signature="modifyExpensses()[pri:0, instance:practice_package.Day3Test@1e04fa0a]" started-at="2023-01-18T11:48:23 IST" name="modifyExpensses" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyExpensses -->
+      </class> <!-- practice_package.Day3Test -->
+      <class name="practice_package.Day2Test">
+        <test-method signature="createStudent()[pri:0, instance:practice_package.Day2Test@614ca7df]" started-at="2023-01-18T11:48:23 IST" name="createStudent" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createStudent -->
+        <test-method signature="modifyAdmin()[pri:0, instance:practice_package.Day2Test@614ca7df]" started-at="2023-01-18T11:48:23 IST" name="modifyAdmin" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyAdmin -->
+        <test-method signature="deleteAdmin()[pri:0, instance:practice_package.Day2Test@614ca7df]" started-at="2023-01-18T11:48:23 IST" name="deleteAdmin" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAdmin -->
+      </class> <!-- practice_package.Day2Test -->
+      <class name="practice_package.Day4Test">
+        <test-method signature="deleteActivites()[pri:0, instance:practice_package.Day4Test@1af2d44a]" started-at="2023-01-18T11:48:23 IST" name="deleteActivites" finished-at="2023-01-18T11:48:23 IST" duration-ms="15" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteActivites -->
+        <test-method signature="createActivites()[pri:0, instance:practice_package.Day4Test@1af2d44a]" started-at="2023-01-18T11:48:23 IST" name="createActivites" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createActivites -->
+        <test-method signature="modifyActivites()[pri:0, instance:practice_package.Day4Test@1af2d44a]" started-at="2023-01-18T11:48:23 IST" name="modifyActivites" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyActivites -->
+      </class> <!-- practice_package.Day4Test -->
+      <class name="practice_package.Day1Test">
+        <test-method signature="createAdmin()[pri:0, instance:practice_package.Day1Test@6cd28fa7]" started-at="2023-01-18T11:48:23 IST" name="createAdmin" finished-at="2023-01-18T11:48:23 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createAdmin -->
+        <test-method signature="deleteAdmin()[pri:0, instance:practice_package.Day1Test@6cd28fa7]" started-at="2023-01-18T11:48:23 IST" name="deleteAdmin" finished-at="2023-01-18T11:48:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAdmin -->
+        <test-method signature="modifyAdmin()[pri:0, instance:practice_package.Day1Test@6cd28fa7]" started-at="2023-01-18T11:48:23 IST" name="modifyAdmin" finished-at="2023-01-18T11:48:23 IST" duration-ms="16" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- modifyAdmin -->
+      </class> <!-- practice_package.Day1Test -->
+      <class name="practice_package.BrokenLinkTest">
+        <test-method signature="getLink()[pri:0, instance:practice_package.BrokenLinkTest@156b88f5]" started-at="2023-01-18T11:47:52 IST" name="getLink" finished-at="2023-01-18T11:48:23 IST" duration-ms="31587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getLink -->
+      </class> <!-- practice_package.BrokenLinkTest -->
+    </test> <!-- practice_package -->
+  </suite> <!-- JenkinsDemo by packages -->
+</testng-results>
