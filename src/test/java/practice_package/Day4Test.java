@@ -14,5 +14,6 @@ public void deleteActivites() {
 	@Test
 public void modifyActivites() {
 	System.out.println("Activites( is modified succssesfully ");
+	System.out.println("Activites( is modified succssesfully ");
 }
 }
